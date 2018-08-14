@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Web", "Team.Web\Team.Web.csproj", "{6E15DAF0-C2E5-47ED-BF69-2BD271C2EBD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Web", "src\Team.Web\Team.Web.csproj", "{6E15DAF0-C2E5-47ED-BF69-2BD271C2EBD6}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Team.Database", "Team.Database\Team.Database.sqlproj", "{15171F86-D580-4A2F-9666-7FC7F681BA97}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Team.Database", "src\Team.Database\Team.Database.sqlproj", "{15171F86-D580-4A2F-9666-7FC7F681BA97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45BD2F55-6EBF-4693-887A-240C0F929145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5B29F81C-B17D-4B37-B2CF-9125F4E4FBF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E15DAF0-C2E5-47ED-BF69-2BD271C2EBD6} = {45BD2F55-6EBF-4693-887A-240C0F929145}
+		{15171F86-D580-4A2F-9666-7FC7F681BA97} = {45BD2F55-6EBF-4693-887A-240C0F929145}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC545EFD-6609-49D7-981F-5C8B088B85F5}
