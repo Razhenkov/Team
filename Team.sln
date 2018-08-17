@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Web", "src\Team.Web\Team.Web.csproj", "{6E15DAF0-C2E5-47ED-BF69-2BD271C2EBD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Team.Web", "src\Team.Web\Team.Web.csproj", "{6E15DAF0-C2E5-47ED-BF69-2BD271C2EBD6}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Team.Database", "src\Team.Database\Team.Database.sqlproj", "{15171F86-D580-4A2F-9666-7FC7F681BA97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45BD2F55-6EBF-4693-887A-240C0F929145}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5B29F81C-B17D-4B37-B2CF-9125F4E4FBF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Team.Data", "src\Team.Data\Team.Data.csproj", "{05B50E43-6971-4CF0-98C2-2D1BD87A1DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team.Services", "src\Team.Services\Team.Services.csproj", "{C58C9C7C-D1C3-47B6-8519-D39DDE07013F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{15171F86-D580-4A2F-9666-7FC7F681BA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15171F86-D580-4A2F-9666-7FC7F681BA97}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15171F86-D580-4A2F-9666-7FC7F681BA97}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{05B50E43-6971-4CF0-98C2-2D1BD87A1DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B50E43-6971-4CF0-98C2-2D1BD87A1DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B50E43-6971-4CF0-98C2-2D1BD87A1DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B50E43-6971-4CF0-98C2-2D1BD87A1DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58C9C7C-D1C3-47B6-8519-D39DDE07013F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58C9C7C-D1C3-47B6-8519-D39DDE07013F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58C9C7C-D1C3-47B6-8519-D39DDE07013F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58C9C7C-D1C3-47B6-8519-D39DDE07013F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6E15DAF0-C2E5-47ED-BF69-2BD271C2EBD6} = {45BD2F55-6EBF-4693-887A-240C0F929145}
 		{15171F86-D580-4A2F-9666-7FC7F681BA97} = {45BD2F55-6EBF-4693-887A-240C0F929145}
+		{05B50E43-6971-4CF0-98C2-2D1BD87A1DBE} = {45BD2F55-6EBF-4693-887A-240C0F929145}
+		{C58C9C7C-D1C3-47B6-8519-D39DDE07013F} = {45BD2F55-6EBF-4693-887A-240C0F929145}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC545EFD-6609-49D7-981F-5C8B088B85F5}
